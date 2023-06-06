@@ -1,1 +1,1 @@
-# gcp_datagov_pipeline
+sudo apt-get install apt-transport-https ca-certificates gnupg curl sudo# gcp_datagov_pipeline
