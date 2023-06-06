@@ -63,7 +63,7 @@ module "bucket-curated" {
 module "bucket-pyspark-tmp" {
   source  = "./modules/gcs"
 
-  name       = "dgcp-datapipeline-389020-pyspark-tmp"
+  name       = "gcp-datapipeline-389020-pyspark-tmp"
   project_id = var.project_id
   location   = var.region
 }
