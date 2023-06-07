@@ -1,4 +1,3 @@
-# import libs
 from fastapi import FastAPI, HTTPException
 import requests
 from google.cloud import storage
@@ -26,12 +25,12 @@ def put_file_to_gcs(output_file: str, bucket_name: str, content):
         print(ex)
 
 
-@app.get("/")
+@app.get('/')
 async def read_root():
     return {"Hello": "World"}
 
 
-def get_dados(remote_url: str):
+def get_dados(remote_url):
     response = requests.get(remote_url)
 
     return response

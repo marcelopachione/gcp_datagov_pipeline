@@ -1,0 +1,1 @@
+gcloud run deploy gcp-datapipeline-389020 --source . --region us-central1
