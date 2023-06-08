@@ -1,0 +1,22 @@
+[2023-06-08 17:32:23,904] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: example_gcs.list_buckets manual__2023-06-08T17:32:23.253998+00:00 [queued]>
+[2023-06-08 17:32:23,912] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: example_gcs.list_buckets manual__2023-06-08T17:32:23.253998+00:00 [queued]>
+[2023-06-08 17:32:23,912] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-08 17:32:23,913] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2023-06-08 17:32:23,914] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-08 17:32:23,945] {taskinstance.py:1264} INFO - Executing <Task(GCSListObjectsOperator): list_buckets> on 2023-06-08 17:32:23.253998+00:00
+[2023-06-08 17:32:23,951] {standard_task_runner.py:52} INFO - Started process 1216 to run task
+[2023-06-08 17:32:23,955] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'example_gcs', 'list_buckets', 'manual__2023-06-08T17:32:23.253998+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/dag_teste.py', '--cfg-path', '/tmp/tmpnx4sz731', '--error-file', '/tmp/tmp_iieg2wk']
+[2023-06-08 17:32:23,957] {standard_task_runner.py:77} INFO - Job 5: Subtask list_buckets
+[2023-06-08 17:32:24,017] {logging_mixin.py:109} INFO - Running <TaskInstance: example_gcs.list_buckets manual__2023-06-08T17:32:23.253998+00:00 [running]> on host b35b0064e2f2
+[2023-06-08 17:32:24,099] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=example_gcs
+AIRFLOW_CTX_TASK_ID=list_buckets
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-08T17:32:23.253998+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-06-08T17:32:23.253998+00:00
+[2023-06-08 17:32:24,112] {gcs.py:259} INFO - Getting list of the files. Bucket: gcp-datapipeline-389020-curated; Delimiter: None; Prefix: None
+[2023-06-08 17:32:25,012] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=example_gcs, task_id=list_buckets, execution_date=20230608T173223, start_date=20230608T173223, end_date=20230608T173225
+[2023-06-08 17:32:25,053] {local_task_job.py:154} INFO - Task exited with return code 0
+[2023-06-08 17:32:25,115] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
