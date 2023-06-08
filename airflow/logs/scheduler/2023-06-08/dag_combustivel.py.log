@@ -2592,3 +2592,108 @@ NameError: name 'REGION' is not defined
 [2023-06-08 20:16:01,391] {logging_mixin.py:109} INFO - [2023-06-08 20:16:01,391] {dag.py:2398} INFO - Sync 1 DAGs
 [2023-06-08 20:16:01,414] {logging_mixin.py:109} INFO - [2023-06-08 20:16:01,414] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
 [2023-06-08 20:16:01,428] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.480 seconds
+[2023-06-08 20:16:31,494] {processor.py:163} INFO - Started process (PID=21350) to work on /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:16:31,496] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_combustivel.py for tasks to queue
+[2023-06-08 20:16:31,498] {logging_mixin.py:109} INFO - [2023-06-08 20:16:31,498] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:16:31,759] {processor.py:654} INFO - DAG(s) dict_keys(['dag_combustivel']) retrieved from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:16:31,852] {logging_mixin.py:109} INFO - [2023-06-08 20:16:31,852] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-06-08 20:16:31,870] {logging_mixin.py:109} INFO - [2023-06-08 20:16:31,870] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
+[2023-06-08 20:16:31,888] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.398 seconds
+[2023-06-08 20:17:02,041] {processor.py:163} INFO - Started process (PID=21402) to work on /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:17:02,043] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_combustivel.py for tasks to queue
+[2023-06-08 20:17:02,045] {logging_mixin.py:109} INFO - [2023-06-08 20:17:02,045] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:17:02,413] {processor.py:654} INFO - DAG(s) dict_keys(['dag_combustivel']) retrieved from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:17:02,538] {logging_mixin.py:109} INFO - [2023-06-08 20:17:02,537] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-06-08 20:17:02,555] {logging_mixin.py:109} INFO - [2023-06-08 20:17:02,555] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
+[2023-06-08 20:17:02,568] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.534 seconds
+[2023-06-08 20:17:33,235] {processor.py:163} INFO - Started process (PID=21454) to work on /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:17:33,237] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_combustivel.py for tasks to queue
+[2023-06-08 20:17:33,239] {logging_mixin.py:109} INFO - [2023-06-08 20:17:33,238] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:17:33,675] {processor.py:654} INFO - DAG(s) dict_keys(['dag_combustivel']) retrieved from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:17:33,691] {logging_mixin.py:109} INFO - [2023-06-08 20:17:33,691] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-06-08 20:17:33,713] {logging_mixin.py:109} INFO - [2023-06-08 20:17:33,713] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
+[2023-06-08 20:17:33,734] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.504 seconds
+[2023-06-08 20:18:04,501] {processor.py:163} INFO - Started process (PID=21515) to work on /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:18:04,502] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_combustivel.py for tasks to queue
+[2023-06-08 20:18:04,503] {logging_mixin.py:109} INFO - [2023-06-08 20:18:04,503] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:18:04,883] {processor.py:654} INFO - DAG(s) dict_keys(['dag_combustivel']) retrieved from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:18:04,893] {logging_mixin.py:109} INFO - [2023-06-08 20:18:04,893] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-06-08 20:18:04,910] {logging_mixin.py:109} INFO - [2023-06-08 20:18:04,910] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
+[2023-06-08 20:18:04,930] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.433 seconds
+[2023-06-08 20:18:35,210] {processor.py:163} INFO - Started process (PID=21568) to work on /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:18:35,212] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_combustivel.py for tasks to queue
+[2023-06-08 20:18:35,213] {logging_mixin.py:109} INFO - [2023-06-08 20:18:35,213] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:18:35,556] {processor.py:654} INFO - DAG(s) dict_keys(['dag_combustivel']) retrieved from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:18:35,566] {logging_mixin.py:109} INFO - [2023-06-08 20:18:35,566] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-06-08 20:18:35,583] {logging_mixin.py:109} INFO - [2023-06-08 20:18:35,583] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
+[2023-06-08 20:18:35,617] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.412 seconds
+[2023-06-08 20:19:06,134] {processor.py:163} INFO - Started process (PID=21620) to work on /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:19:06,136] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_combustivel.py for tasks to queue
+[2023-06-08 20:19:06,138] {logging_mixin.py:109} INFO - [2023-06-08 20:19:06,137] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:19:06,539] {processor.py:654} INFO - DAG(s) dict_keys(['dag_combustivel']) retrieved from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:19:06,549] {logging_mixin.py:109} INFO - [2023-06-08 20:19:06,549] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-06-08 20:19:06,567] {logging_mixin.py:109} INFO - [2023-06-08 20:19:06,567] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
+[2023-06-08 20:19:06,580] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.450 seconds
+[2023-06-08 20:19:36,861] {processor.py:163} INFO - Started process (PID=21682) to work on /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:19:36,863] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_combustivel.py for tasks to queue
+[2023-06-08 20:19:36,865] {logging_mixin.py:109} INFO - [2023-06-08 20:19:36,864] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:19:37,240] {processor.py:654} INFO - DAG(s) dict_keys(['dag_combustivel']) retrieved from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:19:37,249] {logging_mixin.py:109} INFO - [2023-06-08 20:19:37,248] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-06-08 20:19:37,263] {logging_mixin.py:109} INFO - [2023-06-08 20:19:37,263] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
+[2023-06-08 20:19:37,286] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.428 seconds
+[2023-06-08 20:20:07,341] {processor.py:163} INFO - Started process (PID=21735) to work on /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:20:07,343] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_combustivel.py for tasks to queue
+[2023-06-08 20:20:07,344] {logging_mixin.py:109} INFO - [2023-06-08 20:20:07,344] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:20:07,689] {processor.py:654} INFO - DAG(s) dict_keys(['dag_combustivel']) retrieved from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:20:07,702] {logging_mixin.py:109} INFO - [2023-06-08 20:20:07,702] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-06-08 20:20:07,718] {logging_mixin.py:109} INFO - [2023-06-08 20:20:07,718] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
+[2023-06-08 20:20:07,740] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.402 seconds
+[2023-06-08 20:20:38,045] {processor.py:163} INFO - Started process (PID=21794) to work on /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:20:38,047] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_combustivel.py for tasks to queue
+[2023-06-08 20:20:38,048] {logging_mixin.py:109} INFO - [2023-06-08 20:20:38,048] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:20:38,436] {processor.py:654} INFO - DAG(s) dict_keys(['dag_combustivel']) retrieved from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:20:38,446] {logging_mixin.py:109} INFO - [2023-06-08 20:20:38,446] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-06-08 20:20:38,465] {logging_mixin.py:109} INFO - [2023-06-08 20:20:38,465] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
+[2023-06-08 20:20:38,490] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.449 seconds
+[2023-06-08 20:21:09,081] {processor.py:163} INFO - Started process (PID=21846) to work on /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:21:09,082] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_combustivel.py for tasks to queue
+[2023-06-08 20:21:09,084] {logging_mixin.py:109} INFO - [2023-06-08 20:21:09,084] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:21:09,353] {processor.py:654} INFO - DAG(s) dict_keys(['dag_combustivel']) retrieved from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:21:09,364] {logging_mixin.py:109} INFO - [2023-06-08 20:21:09,364] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-06-08 20:21:09,381] {logging_mixin.py:109} INFO - [2023-06-08 20:21:09,381] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
+[2023-06-08 20:21:09,411] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.334 seconds
+[2023-06-08 20:21:40,268] {processor.py:163} INFO - Started process (PID=21898) to work on /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:21:40,270] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_combustivel.py for tasks to queue
+[2023-06-08 20:21:40,272] {logging_mixin.py:109} INFO - [2023-06-08 20:21:40,272] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:21:40,562] {processor.py:654} INFO - DAG(s) dict_keys(['dag_combustivel']) retrieved from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:21:40,574] {logging_mixin.py:109} INFO - [2023-06-08 20:21:40,573] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-06-08 20:21:40,594] {logging_mixin.py:109} INFO - [2023-06-08 20:21:40,594] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
+[2023-06-08 20:21:40,623] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.358 seconds
+[2023-06-08 20:22:10,728] {processor.py:163} INFO - Started process (PID=21959) to work on /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:22:10,731] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_combustivel.py for tasks to queue
+[2023-06-08 20:22:10,732] {logging_mixin.py:109} INFO - [2023-06-08 20:22:10,732] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:22:11,074] {processor.py:654} INFO - DAG(s) dict_keys(['dag_combustivel']) retrieved from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:22:11,085] {logging_mixin.py:109} INFO - [2023-06-08 20:22:11,084] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-06-08 20:22:11,101] {logging_mixin.py:109} INFO - [2023-06-08 20:22:11,101] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
+[2023-06-08 20:22:11,132] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.408 seconds
+[2023-06-08 20:22:42,110] {processor.py:163} INFO - Started process (PID=22011) to work on /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:22:42,112] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_combustivel.py for tasks to queue
+[2023-06-08 20:22:42,114] {logging_mixin.py:109} INFO - [2023-06-08 20:22:42,113] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:22:42,386] {processor.py:654} INFO - DAG(s) dict_keys(['dag_combustivel']) retrieved from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:22:42,398] {logging_mixin.py:109} INFO - [2023-06-08 20:22:42,397] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-06-08 20:22:42,416] {logging_mixin.py:109} INFO - [2023-06-08 20:22:42,416] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
+[2023-06-08 20:22:42,434] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.328 seconds
+[2023-06-08 20:23:13,243] {processor.py:163} INFO - Started process (PID=22070) to work on /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:23:13,245] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_combustivel.py for tasks to queue
+[2023-06-08 20:23:13,246] {logging_mixin.py:109} INFO - [2023-06-08 20:23:13,246] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:23:13,573] {processor.py:654} INFO - DAG(s) dict_keys(['dag_combustivel']) retrieved from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:23:13,603] {logging_mixin.py:109} INFO - [2023-06-08 20:23:13,603] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-06-08 20:23:13,625] {logging_mixin.py:109} INFO - [2023-06-08 20:23:13,624] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
+[2023-06-08 20:23:13,658] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.422 seconds
+[2023-06-08 20:23:43,742] {processor.py:163} INFO - Started process (PID=22125) to work on /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:23:43,744] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_combustivel.py for tasks to queue
+[2023-06-08 20:23:43,745] {logging_mixin.py:109} INFO - [2023-06-08 20:23:43,745] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:23:44,001] {processor.py:654} INFO - DAG(s) dict_keys(['dag_combustivel']) retrieved from /opt/airflow/dags/dag_combustivel.py
+[2023-06-08 20:23:44,011] {logging_mixin.py:109} INFO - [2023-06-08 20:23:44,011] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-06-08 20:23:44,028] {logging_mixin.py:109} INFO - [2023-06-08 20:23:44,027] {dag.py:2937} INFO - Setting next_dagrun for dag_combustivel to 2023-01-01T00:00:00+00:00
+[2023-06-08 20:23:44,076] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_combustivel.py took 0.338 seconds
