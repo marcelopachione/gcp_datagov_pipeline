@@ -15,8 +15,9 @@ default_args = {
     "email_on_failure": False
 }
 
-CLUSTER_NAME = 'gcp-pipeline-cluster'
-REGION = 'us-central1'
+CLUSTER_NAME = 'gcp-pipeline-cluster-new'
+#REGION = 'us-central1'
+REGION = 'us-east1'
 PROJECT_ID = 'gcp-datapipeline-389020'
 CODE_BUCKET_NAME = 'gcp-datapipeline-389020-pyspark-code'
 PYSPARK_FILE = 'main.py'
